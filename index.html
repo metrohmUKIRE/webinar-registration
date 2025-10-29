@@ -4,56 +4,105 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reagent-Free Ion Chromatography Demo | Metrohm</title>
-  <meta name="description" content="Join Metrohm’s live webinar to discover how Reagent-Free Ion Chromatography simplifies routine analysis and reduces running costs." />
-  <link rel="icon" href="https://www.metrohm.com/etc.clientlibs/metrohm/clientlibs/clientlib-site/resources/favicon.ico" />
+  <meta name="description" content="Join our live demo and Q&A on November 27 to discover how Metrohm’s Reagent-Free Ion Chromatography system simplifies routine analysis." />
+  <link rel="icon" type="image/png" href="https://www.metrohm.com/content/dam/metrohm/icons/favicon.png" />
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
-      background-color: #fff;
+      background-color: #ffffff;
       color: #222;
       line-height: 1.6;
     }
+
     header {
       background-color: #007a8a;
       color: #fff;
-      padding: 1.5rem 1rem;
+      padding: 1.2rem 2rem;
       text-align: center;
     }
+
     main {
       max-width: 900px;
       margin: 2rem auto;
-      padding: 0 1.5rem;
+      padding: 0 1rem;
     }
-    h1, h2, h3 {
+
+    h1, h2 {
       color: #007a8a;
     }
+
     img {
+      border-radius: 6px;
+      display: block;
+    }
+
+    .banner {
       width: 100%;
-      border-radius: 8px;
       margin-bottom: 1.5rem;
     }
+
+    .content-with-image {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .content-with-image img {
+      max-width: 350px;
+      height: auto;
+      flex-shrink: 0;
+    }
+
+    .content-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .extra-image {
+      width: 100%;
+      margin: 2rem 0;
+    }
+
     .btn {
       display: inline-block;
       background-color: #007a8a;
       color: #fff;
       padding: 0.8rem 1.5rem;
-      border-radius: 4px;
       text-decoration: none;
+      border-radius: 4px;
       margin-top: 1rem;
+      font-weight: bold;
     }
+
     .form-section {
       margin-top: 3rem;
-      background-color: #f9f9f9;
+      padding: 2rem;
       border: 1px solid #ddd;
       border-radius: 8px;
-      padding: 2rem;
+      background-color: #f9f9f9;
     }
+
     footer {
       text-align: center;
       font-size: 0.9rem;
       color: #555;
       margin: 3rem 0 2rem;
+    }
+
+    a {
+      color: #007a8a;
+    }
+
+    @media (max-width: 600px) {
+      .content-with-image {
+        flex-direction: column;
+      }
+      .content-with-image img {
+        max-width: 100%;
+      }
     }
   </style>
 </head>
@@ -64,28 +113,50 @@
   </header>
 
   <main>
-    <img src="https://www.metrohm.com/content/dam/metrohm/shared/images/events/ion-chromatography-lab.jpg" alt="Ion Chromatography in lab" />
+    <!-- Partner logos -->
+    <img src="logos_met_merck_elga.jpg" alt="Metrohm, Merck, and ELGA LabWater logos" class="banner" />
 
     <p><strong>Date:</strong> November 27, 2025<br>
     <strong>Time:</strong> 2:00 PM (GMT) via Microsoft Teams</p>
 
-    <p>Curious about how to simplify ion chromatography and cut running costs? Join our <strong>live demo and Q&amp;A</strong> to discover how <strong>Metrohm’s Reagent-Free Ion Chromatography (IC)</strong> system is changing routine analysis.</p>
+    <div class="content-with-image">
+      <div class="content-text">
+        <p>Curious about simplifying ion chromatography and cutting running costs? Join our live demo and Q&A to discover how <strong>Metrohm’s Reagent-Free Ion Chromatography (IC)</strong> system is transforming routine analysis.</p>
 
-    <p>Hear from <strong>Andrew Osborne (Metrohm)</strong>, <strong>Patric Klein (Merck)</strong>, and <strong>Bethany Campbell (ELGA LabWater)</strong> as they demonstrate how reagent-free operation, high-purity water, and quality reagents work together for consistent, reliable results with less effort.</p>
+        <p>Hear from industry experts <strong>Andrew Osborne (Metrohm)</strong>, <strong>Patric Klein (Merck)</strong>, and <strong>Bethany Campbell (ELGA LabWater)</strong> as they demonstrate how reagent-free operation, high-purity water, and premium reagents combine for consistent, reliable results with less effort and lower operating costs.</p>
 
-    <p>This short, practical session is perfect for laboratory professionals looking to simplify workflows, improve sustainability, and reduce operational costs.</p>
+        <p>This short, practical session is ideal for laboratory professionals seeking smarter, more sustainable IC workflows. Don’t miss your chance to see the system in action and have your questions answered live!</p>
 
-    <a class="btn" href="#register">Register Now</a>
+        <a class="btn" href="#register">Register Now</a>
+      </div>
+
+      <!-- Image next to text -->
+      <img src="EcoIC 946 Veolia.jpg" alt="Eco IC 946 system" />
+    </div>
+
+    <!-- Extra image -->
+    <img src="IC and autosampler.jpg" alt="IC and autosampler setup" class="extra-image" />
 
     <div class="form-section" id="register">
       <h2>Register for the Webinar</h2>
       <p>Please complete the form below to reserve your place.</p>
 
-      <!-- ClickDimensions Form (iframe embed version) -->
+      <!-- ClickDimensions Form (iframe version for full functionality) -->
       <iframe 
-        src="https://web.metrohm.com/metrohmcom-aysuz/pages/bfiwl6oqefcfo9zrkwibw.html?PageId=2f16520490a3f01185a3d66b2968bf07" 
-        allowtransparency="true" 
-        width="100%" 
-        height="700" 
-        type="text/html" 
-        frameborder="0" 
+        src="https://web.metrohm.com/metrohmcom-aysuz/pages/bfiwl6oqefcfo9zrkwibw.html?PageId=2f16520490a3f01185a3d66b2968bf07"
+        allowtransparency="true"
+        width="100%"
+        height="700"
+        type="text/html"
+        frameborder="0"
+        style="border:0; border-radius:6px;">
+      </iframe>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Metrohm UK & Ireland | 
+    <a href="https://www.metrohm.com/en_gb/privacy-policy.html" target="_blank">Privacy Policy</a>
+  </footer>
+</body>
+</html>
