@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reagent-Free Ion Chromatography Demo | Metrohm</title>
-  <meta name="description" content="Join our live demo and Q&A on November 27 to discover how Metrohm’s Reagent-Free Ion Chromatography system simplifies routine analysis." />
+  <meta name="description" content="Join Metrohm’s live demo and Q&A on November 27th to discover how Reagent-Free Ion Chromatography simplifies routine analysis and reduces running costs." />
   <link rel="icon" type="image/png" href="https://www.metrohm.com/content/dam/metrohm/icons/favicon.png" />
   <style>
     body {
@@ -28,7 +28,7 @@
       padding: 0 1rem;
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       color: #007a8a;
     }
 
@@ -47,7 +47,7 @@
       flex-wrap: wrap;
       align-items: flex-start;
       gap: 1.5rem;
-      margin-bottom: 2rem;
+      margin: 2rem 0;
     }
 
     .content-with-image img {
@@ -62,8 +62,22 @@
     }
 
     .extra-image {
-      width: 100%;
-      margin: 2rem 0;
+      max-width: 350px;
+      margin-right: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .extra-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .extra-text {
+      flex: 1;
+      min-width: 250px;
     }
 
     .btn {
@@ -96,11 +110,17 @@
       color: #007a8a;
     }
 
+    ul {
+      margin-left: 1.2rem;
+    }
+
     @media (max-width: 600px) {
-      .content-with-image {
+      .content-with-image,
+      .extra-section {
         flex-direction: column;
       }
-      .content-with-image img {
+      .content-with-image img,
+      .extra-image {
         max-width: 100%;
       }
     }
@@ -121,11 +141,22 @@
 
     <div class="content-with-image">
       <div class="content-text">
-        <p>Curious about simplifying ion chromatography and cutting running costs? Join our live demo and Q&A to discover how <strong>Metrohm’s Reagent-Free Ion Chromatography (IC)</strong> system is transforming routine analysis.</p>
+        <p>Curious about how to simplify ion chromatography and cut running costs?</p>
 
-        <p>Hear from industry experts <strong>Andrew Osborne (Metrohm)</strong>, <strong>Patric Klein (Merck)</strong>, and <strong>Bethany Campbell (ELGA LabWater)</strong> as they demonstrate how reagent-free operation, high-purity water, and premium reagents combine for consistent, reliable results with less effort and lower operating costs.</p>
+        <p>Join our <strong>live demo and Q&A</strong> on <strong>November 27th at 2PM (via Microsoft Teams)</strong> to see how <strong>Metrohm’s Reagent-Free Ion Chromatography (IC)</strong> system is changing routine analysis.</p>
 
-        <p>This short, practical session is ideal for laboratory professionals seeking smarter, more sustainable IC workflows. Don’t miss your chance to see the system in action and have your questions answered live!</p>
+        <p>Hear from <strong>Andrew Osborne (Metrohm)</strong>, <strong>Patric Klein (Merck)</strong>, and <strong>Bethany Campbell (ELGA LabWater)</strong> as they demonstrate how reagent-free operation, high-purity water, and quality reagents work together for consistent, reliable results with less effort.</p>
+
+        <p>See how this approach eliminates manual reagent handling, reduces maintenance, and lowers operating costs while improving data quality. Learn how pure water from ELGA and precision chemicals from Merck integrate perfectly with Metrohm’s system to make ion chromatography simpler and more sustainable.</p>
+
+        <ul>
+          <li>Discover how reagent-free IC can reduce running costs by up to 95%</li>
+          <li>Experience true ease of use with fewer manual steps and no chemical preparation</li>
+          <li>Ensure consistent, traceable results with ultra-pure water and optimised reagents</li>
+          <li>Get practical insights directly from Metrohm, Merck, and ELGA experts</li>
+        </ul>
+
+        <p>Join the session live to see the system in action and have your questions answered by the experts.</p>
 
         <a class="btn" href="#register">Register Now</a>
       </div>
@@ -134,8 +165,16 @@
       <img src="EcoIC 946 Veolia.jpg" alt="Eco IC 946 system" />
     </div>
 
-    <!-- Extra image -->
-    <img src="IC and autosampler.jpg" alt="IC and autosampler setup" class="extra-image" />
+    <div class="extra-section">
+      <img src="IC and autosampler.jpg" alt="IC and autosampler setup" class="extra-image" />
+      <div class="extra-text">
+        <p><strong>The 925 IC</strong>, an ion chromatography system that focuses on the essentials while not compromising on quality, robustness, and reliability. Whether you need to perform routine water analysis or you’re looking for an instrument for higher education, the 925 IC comes with all the components you need. In addition, you can also save time and reduce work by getting an automated system.</p>
+
+        <p><strong>948 Continuous IC Module</strong> for automated inline preparation of eluents. You can connect an ultrapure water system (PURELAB® flex 3+ Ultrapure Water System) and your system is prepared for 24/7 analysis.</p>
+
+        <p><strong>The Eco IC</strong> can be combined with an <strong>863 Compact IC Autosampler</strong> complete with rack, vials, and caps. This allows you to analyse up to 36 samples fully automatically.</p>
+      </div>
+    </div>
 
     <div class="form-section" id="register">
       <h2>Register for the Webinar</h2>
